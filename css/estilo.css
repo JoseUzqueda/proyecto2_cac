@@ -10,12 +10,9 @@ body{
     padding: 0;
 }
 /** -------------NAVEGACION------------ **/
+
 .cajaHeader{
-    height: 80vh;
-    background:linear-gradient(to bottom,#00000073, #00000073,#00000073), url("../assets/img/ba1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 70%;
 }
 
 .colorGris{
@@ -30,40 +27,9 @@ body{
     color:rgb(2, 179, 2);
 }
 /**----------CONFERENCIA----------------*/
-.laConferencia{
-    height: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 5rem;
-}
 
-.cajaConferencia{
-    width: 40%;
-    color: white;
-    text-align: right;
-}
-
-.cajaConferencia a{
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 5%;
-    margin-right: 20px;
-    padding: 10px;
-}
-
-#text3{
-    background-color: green;
-    border: 1px solid green;
-}
-
-.cajaConferencia h1{
-    margin-bottom: 1rem;
-}
-
-.cajaConferencia p{
-    margin-bottom: 2.5rem;
+.carousel-item img{
+    height: 50%;
 }
 
 
@@ -180,6 +146,7 @@ body{
     color: white;
     text-decoration: none;
     font-size: 1rem;
+    margin: 0 auto;
 }
 
 /*Cargamos los diseños para celulares*/
