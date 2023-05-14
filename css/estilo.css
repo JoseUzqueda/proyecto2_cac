@@ -12,7 +12,7 @@ body{
 /** -------------NAVEGACION------------ **/
 
 .cajaHeader{
-    height: 70%;
+    height: 100%;
 }
 
 .colorGris{
@@ -27,10 +27,15 @@ body{
     color:rgb(2, 179, 2);
 }
 /**----------CONFERENCIA----------------*/
-
-.carousel-item img{
-    height: 50%;
+.cajaRou{
+    height: 70%;
 }
+.carousel-item img{
+    height: 80vh;
+    object-fit: cover;
+}
+
+
 
 
 /** ------------ORADORES------------ **/
@@ -154,100 +159,16 @@ body{
 @media screen and (max-width: 567px){
     .cajaHeader{
         height: initial;
-        background:linear-gradient(to bottom,#00000073, #00000073,#00000073), url("../assets/img/plaza.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .cajaNavegacion{
-        height: 32%;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .cajaLogo{
-        height: 40%;
-        justify-content: center;
-        margin-left: 2rem;
-        padding-top: 1rem;
-    }
-
-    .cajaLogo a{
-        width: 35%;
-    }
-
-    .cajaNav{
-        justify-content: center;
-    }
-
-    .ulNav{
-        flex-direction: column;
-        text-align: center;   
-        margin-left: 3rem;
-    }
-
-    .laConferencia{
-        width: auto;
-    }
-
-    .cajaConferencia{
-        margin: 0 auto;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .cajaConferencia a{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-right: 0;
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-
-    .cajaConferencia p{
-        margin-bottom: 2rem;
     }
 
     /** -----------ORADORES-------------- **/
 
-    .cajaOradores{
+    .cajaRou{
         height: initial;
-        width: 100%;
     }
 
-    .titulo{
-        width: 100%;
-        justify-content: center;
-    }
-
-    .cajaPrincipalIndi{
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .cajaIndi{
-        margin: 0;
-        width: 100%;
-    }
-    .imgIndi{
-        width: 60%;
-        margin: auto;   
-    }
-
-    .textoIndi{
-        text-align: center;
-    }
-
-    .mitadImagen{
-        height: 35vh;
-    
-    }
-
-    
-    .mitadTexto{
-        height: 40vh;
+    .carousel-item img{
+        height: 80vh;
     }
 
         /** ------------FORMULARIO----------- **/
@@ -255,14 +176,6 @@ body{
         #convierteteEnOrador{
             height: initial 
         }
-
-        .botonForm input{
-            padding: 0.5rem;
-        }
-
-        .cajaMain{
-         margin-bottom: 2rem;
-        }        
 
         /** ------------FOOTER-------------- **/
         .cajafooter{
@@ -290,96 +203,13 @@ body{
 
     .cajaHeader{
         height: initial;
-        background:linear-gradient(to bottom,#00000073, #00000073,#00000073), url("../assets/img/ba1-2.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .cajaNavegacion{
-        height: 42%;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .cajaNav{
-        justify-content: center;
-    }
-
-    .cajaLogo{
-        height: 40%;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 0.5rem;
-    }
-
-    .cajaLogo a{
-        width: 35%;
-    }
-
-    .luNav{
-        margin-right: 2rem;
-    }
-
-    .laConferencia{
-        justify-content: center;
-        width: auto;
-    }
-
-    .cajaConferencia{
-        text-align: center;
-        align-content: center;
-        justify-content: center;
-    }
-
-    .cajaConferencia a{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-right: 0;
-        margin-bottom: 10px;
-        padding: 5px;
     }
 
         /** -----------ORADORES-------------- **/
 
-    .cajaOradores{
-        height: initial;
-    }
-
-    .cajaPrincipalIndi{
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .cajaIndi{
-        margin: 0;
-        width: 100%;
-    }
-
-    .textoIndi{
-        text-align: center;
-    }
-
-    .imgIndi{
-        width: 60%;
-        margin: auto;
-        
-    }
-
+   
     #lugarYfecha{
         height: initial;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .mitadImagen{
-        width: 100%;
-    }
-
-    .mitadTexto{
-        width: 100%;
-        padding-bottom: 1rem;
     }
 
     /** ------------FORMULARIO----------- **/
@@ -388,194 +218,16 @@ body{
         height: initial 
     }
 
-    .botonForm input{
-        padding: 0.5rem;
-     }
-
-    .cajaMain{
-        margin-bottom: 2rem;
-    }        
-    
      /** ------------FOOTER-------------- **/
      .cajafooter{
-        height: 13vh;
+        height: initial;
     }
     
     .foot a{
-        margin: 0.1rem;
-        padding: 0.1rem;
         width: 100%;
-        font-size: 0.7rem;
-    }
-
-}
-
-@media screen and (min-width: 768px) and (max-width:991px) {
-
-    .cajaHeader{
-        height: initial;
-        background:linear-gradient(to bottom,#00000073, #00000073,#00000073), url("../assets/img/ba1-2.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .cajaNavegacion{
-        height: 42%;
-        width: 100%;
-    }
-
-    .cajaNav{
-        width: 65%;
-        justify-content: center;
-    }
-
-    .cajaLogo{
-        width: 30%;
-        height: 40%;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 0.5rem;
-    }
-
-    .cajaLogo a{
-        width: 20%;
-    }
-
-    .luNav{
-        margin-right: 1rem;
-        margin-top: 1rem;
-    }
-
-    .cajaConferencia {
-        margin-bottom: 1rem;
-    }
-    .cajaConferencia p{
-        margin-bottom: 1rem;
-    }
-
-    .cajaConferencia a{
+        font-size: 1rem;
         text-align: center;
-        margin-right: 0;
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-
-    .laConferencia{
-     margin-bottom: 1rem;
-    }
-
-    /** -----------ORADORES-------------- **/
-
-    .cajaOradores{
-        height: initial;
-    }
-
-    .cajaPrincipalIndi{
-        width: 100%;
-    }
-
-    .cajaIndi{
-        width: 25%;
-    }
-    
-    /** ------------FORMULARIO----------- **/
-
-    #convierteteEnOrador{
-        height: initial 
-    }
-
-    .botonForm input{
-        padding: 0.5rem;
-     }
-
-    .cajaMain{
-        margin-bottom: 2rem;
-    }
-     /** ------------FOOTER-------------- **/
-     .cajafooter{
-        height: 13vh;
-    }
-    
-    .foot a{
-        color: white;
-        margin: 0.1rem;
-        padding: 0.1rem;
-        width: 100%;
     }
 
 }
 
-@media screen and (min-width: 992px) and (max-width:1999px) {
-    .cajaHeader{
-        background:linear-gradient(to bottom,#00000073, #00000073,#00000073), url("../assets/img/ba1-3.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .cajaNavegacion{
-        height: 15%;
-        width: 100%;
-    }
-
-    .cajaLogo{
-        width: 20%;
-        margin: auto;
-    }
-
-    .cajaNav{
-        width: 65%;
-        justify-content: center;
-    }
-
-    .cajaLogo a{
-        width: 30%;
-    }
-
-    /** -----------ORADORES-------------- **/
-
-    .cajaOradores{
-        height: initial;
-    }
-
-    .cajaPrincipalIndi{
-        width: 100%;
-    }
-
-    .cajaIndi{
-        width: 25%;
-    }
-        
-    /** ------------FORMULARIO----------- **/
-
-    #convierteteEnOrador{
-        height: initial 
-    }
-
-    .botonForm input{
-        padding: 0.5rem;
-     }
-
-    .cajaMain{
-        margin-bottom: 2rem;
-    }
-     /** ------------FOOTER-------------- **/
-     .cajafooter{
-        height: 10vh;
-    }
-
-    .foot{
-        height: 100%;
-        width: 70%;
-        margin: 0 auto;
-    }
-    
-    
-    .foot a{
-        margin: 0 auto;
-        color: white;
-        text-decoration: none;
-        font-size: 1.2rem;
-    }
-}
